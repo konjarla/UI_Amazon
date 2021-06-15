@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon Page Regression Test Suite" thread-count="3" parallel="tests" verbose="3">
+
+<test name="Amazon Page Test">
+
+        <classes>
+			<class name="equifax.qa.amazon.tests.AmazonPageTest" />
+		</classes>
+
+</test>
+<test name="Amazon Search Page Test">
+
+        <classes>
+			<class name="equifax.qa.amazon.tests.AmazonSearchPageTest" />
+		</classes>
+
+</test>
+<test name="Amazon Add To Cart Page Test">
+
+        <classes>
+			<class name="equifax.qa.amazon.tests.AmazonAddToCartPageTest" />
+		</classes>
+
+</test>
+<test name="Amazon proceed To CheckOut Page Test">
+
+        <classes>
+			<class name="equifax.qa.amazon.tests.AmazonProceedToCheckOutPageTest" />
+		</classes>
+
+</test>
+	
+	
+	
+	
+	
+	
+
+</suite>
